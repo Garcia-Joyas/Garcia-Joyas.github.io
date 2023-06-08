@@ -1,3 +1,28 @@
 h1{
     text-align: center;
 }
+.caja{
+    display: grid;
+    margin:0 auto ;
+    width: 70vw;
+    height: 90vh;
+    text-align: center;
+    border: solid;
+    border-color: black;
+
+}
+.caja:hover{
+    text-align: center;
+    border: solid;
+    border-color: blue;
+}
+.inter{
+    display:inline;
+    border:solid;
+    border-color: aqua;
+    height: 50vh;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
