@@ -2,27 +2,38 @@ h1{
     text-align: center;
 }
 .caja{
+    
     display: grid;
     margin:0 auto ;
-    width: 70vw;
+    width: 87.50vw;
     height: 90vh;
     text-align: center;
     border: solid;
     border-color: black;
-
+    gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
 }
-.caja:hover{
-    text-align: center;
+.con:hover{
+    background-color: grey;
+}
+#uno{
     border: solid;
-    border-color: blue;
+    border-color: black;
 }
-.inter{
-    display:inline;
-    border:solid;
-    border-color: aqua;
-    height: 50vh;
+#dos{
+    border: solid;
+    border-color: red;
 }
-img{
-    max-width: 100%;
-    height: auto;
+#tres{
+    border: solid;
+    border-color: orange;
+}
+#cuatro{
+    border: solid;
+    border-color: yellow;
+}
+#cinco{
+    border: solid;
+    border-color: green;
 }
