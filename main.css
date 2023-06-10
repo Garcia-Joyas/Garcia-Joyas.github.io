@@ -12,7 +12,7 @@ h1{
     border-color: black;
     gap: 10px;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .con:hover{
     background-color: grey;
@@ -36,4 +36,10 @@ h1{
 #cinco{
     border: solid;
     border-color: green;
+}
+#bot{
+    background-color: aquamarine;
+}
+#bot2{
+    height: 4fr;
 }
