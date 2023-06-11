@@ -15,7 +15,7 @@ h1{
     grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 .con:hover{
-    background-color: grey;
+    background-color: greenyellow;
 }
 #uno{
     border: solid;
@@ -42,4 +42,11 @@ h1{
 }
 #bot2{
     height: 4fr;
+}
+
+
+#luis{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
 }

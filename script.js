@@ -1,9 +1,11 @@
-function Greeting({ name }) {
-    return <h1>Hello, {name}</h1>;
-  }
-  
-  export default function App() {
-    return <Greeting name="world" />
-  }
-  var bot = document.getElementById("bot");
-  bot.addEventListener("click",Greeting);
+var bu = document.getElementById("bot");
+var contenedor = document.getElementById("cajaa");
+var i=0;
+function contar(){
+  i++;
+  var pp = document.createElement("p");
+  pp.textContent=`${i}`;
+  contenedor.appendChild(pp);
+
+}
+bu.addEventListener("click",contar);
